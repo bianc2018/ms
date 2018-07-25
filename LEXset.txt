@@ -1,0 +1,48 @@
+#RW ID Value
+#保留字 RES
+#操作符 OP
+#变量   ID
+#常数   NUM
+#界符   DEL
+
+RES 100 if 
+RES 101 else 
+RES 102 while 
+RES 103 do
+RES 104 for
+RES 105 out
+RES 106 in
+RES 107 return
+RES 108 func
+RES 109 LINEEND
+
+TYPE 201 int
+
+DEL 300 ;
+DEL 301 (
+DEL 302 )
+DEL 303 =
+DEL 304 {
+DEL 305 }
+DEL 306 ,
+
+OP 400 +
+OP 401 -
+OP 402 *
+OP 403 /
+OP 404 and
+OP 405 or
+OP 406 not
+OP 407 >
+OP 408 <
+OP 409 >=
+OP 410 ==
+OP 412 <=
+OP 413 !=
+
+NOTE 500 //
+CONST 501 "
+EXTEND 502 load
+ID 600 0
+NUM 601 0
+
